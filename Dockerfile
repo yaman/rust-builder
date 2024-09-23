@@ -1,4 +1,4 @@
-FROM rust:latest
+FROM rustlang/rust:nightly
 
 RUN apt update && apt install -y curl cmake
 
